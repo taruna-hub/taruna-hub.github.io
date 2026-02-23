@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tarun Aggarwal — Design Portfolio</title>
+  <meta name="description" content="Portfolio of Tarun Aggarwal showcasing Product, Automotive/3D, UI/UX and Packaging projects." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">/Tarun<span>Aggarwal</span></a>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Hi, I’m <span class="accent">Tarun Aggarwal</span></h1>
+        <p class="hero-subtitle">
+          Designer focused on <strong>Product</strong>, <strong>Automotive/3D</strong>, <strong>UI/UX</strong>, and <strong>Packaging</strong> — crafting meaningful experiences from concept to production.
+        </p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#work" id="workExplore">Explore Work</a>
+          <a class="btn" href="mailto:tarun@example.com">Contact</a>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+  </header>
+
+  <main id="work" class="container">
+    <section class="controls" aria-label="Project filters">
+      <div class="filters" role="tablist">
+        <button role="tab" class="filter active" data-filter="all" aria-selected="true">All</button>
+        <button role="tab" class="filter" data-filter="product-design">Product Design</button>
+        <button role="tab" class="filter" data-filter="automotive-3d">Automotive/3D</button>
+        <button role="tab" class="filter" data-filter="ui-ux">UI/UX</button>
+        <button role="tab" class="filter" data-filter="packaging">Packaging</button>
+      </div>
+      <label class="search">
+        <span class="sr-only">Search projects</span>
+        <input type="search" id="searchInput" placeholder="Search by title or tag…" autocomplete="off" />
+      </label>
+    </section>
+
+    <section class="grid" id="projectsGrid" aria-live="polite">
+      <!-- Cards injected by JS -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tarun Aggarwal — Available for select projects.</p>
+    </div>
+  </footer>
+
+  <script src="assets/project-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
