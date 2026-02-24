@@ -95,7 +95,7 @@ img{max-width:100%; display:block; border-radius:12px}
 }
 
 .gallery{
-  margin-top:18px; display:flex; flex-direction:column; gap:14px;
+  margin-top:18px; display:flex; flex-direction:column; gap:0;
 }
 .gallery figure{margin:0}
 .gallery figcaption{color:var(--muted); font-size:.9rem; margin-top:6px}
