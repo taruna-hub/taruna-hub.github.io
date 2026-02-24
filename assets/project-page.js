@@ -55,6 +55,7 @@
       case 'ui-ux': return 'UI/UX';
       case 'packaging': return 'Packaging';
       case 'automotive-3d': return 'Automotive/3D';
+      case 'Branding': return 'Branding';
       default: return cat;
     }
   }
