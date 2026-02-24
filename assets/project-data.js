@@ -6,18 +6,26 @@ window.projectsData = [
   {
     id: 1,
     slug: "aeron-ev",
-    title: "Aeron EV — Compact Urban Concept",
-    category: "automotive-3d",
+    title: "Branding -- Glowtide",
+    category: "Branding",
     year: 2026,
-    tags: ["automotive", "concept", "3D"],
-    summary: "Electric city car concept exploring efficient packaging, CMF, and surfacing workflows.",
+    tags: ["Colorography", "Typography", "Brand Guide"],
+    summary: "Created concept design for Glowtide brand as part of academic project. Take a look!",
     cover: "media/aeron-ev/cover.jpg",
     images: [
-      { src: "media/aeron-ev/01.jpg", alt: "Side profile clay render", caption: "Early surfacing study in clay-like shader." },
-      { src: "media/aeron-ev/02.jpg", alt: "Interior CMF board", caption: "CMF exploration with recycled materials." },
-      { src: "media/aeron-ev/03.jpg", alt: "Studio lighting render", caption: "Final studio render with HDRI lighting." }
-    ],
-    youtubeId: "dQw4w9WgXcQ"
+      { src: "media/aeron-ev/11.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/12.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/13.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/14.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/15.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/16.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/17.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/18.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/19.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/20.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/21.jpg", alt: "Side profile clay render", caption: "" },
+      { src: "media/aeron-ev/22.jpg", alt: "Side profile clay render", caption: "" },
+    ]
   },
   {
     id: 2,
@@ -32,7 +40,8 @@ window.projectsData = [
       { src: "media/arc-lamp/01.jpg", alt: "ARC Lamp on walnut desk", caption: "Prototype v2 in brushed aluminum." },
       { src: "media/arc-lamp/02.jpg", alt: "Exploded view", caption: "Exploded view showing internal mechanism." },
       { src: "media/arc-lamp/03.jpg", alt: "Detail of hinge", caption: "Self-locking hinge for smooth articulation." }
-    ]
+    ],
+    youtubeId: "dQw4w9WgXcQ"
   },
   {
     id: 3,
