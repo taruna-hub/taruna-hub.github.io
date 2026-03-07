@@ -1,74 +1,92 @@
 
-// Centralized project data used by both pages.
-// Tip: slug should match folder name under /media/<slug>/
-
 window.projectsData = [
-  {
-    id: 1,
-    slug: "aeron-ev",
-    title: "Branding -- Glowtide",
-    category: "Branding",
-    year: 2026,
-    tags: ["Colorography", "Typography", "Brand Guide"],
-    summary: "Created concept design for Glowtide brand as part of academic project. Take a look!",
-    cover: "media/aeron-ev/cover.jpg",
-    images: [
-      { src: "media/aeron-ev/11.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/12.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/13.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/14.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/15.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/16.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/17.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/18.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/19.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/20.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/21.jpg", alt: "Side profile clay render", caption: "" },
-      { src: "media/aeron-ev/22.jpg", alt: "Side profile clay render", caption: "" },
-    ]
+  { id:1, 
+    slug:'elderly-health', 
+    title:'Elderly Healthcare Digial Monitoring', 
+    categories:['product-design'], 
+    year:2026, 
+    tags:['digital','healthcare','ai'], 
+    summary:'This project demonstrates a simple, low cost elderly health monitoring system based on two interconnected devices: a wrist worn band for the elderly person and a monitoring device for a nurse or caretaker.', 
+    cover:'media/elderly-health/cover.jpg', 
+    images:[ 
+      {src:'media/elderly-health/2.jpg', alt:''}, 
+      {src:'media/elderly-health/3.jpg', alt:''}, 
+      {src:'media/elderly-health/4.jpg', alt:''}, 
+      {src:'media/elderly-health/5.jpg', alt:''}, 
+      {src:'media/elderly-health/6.jpg', alt:''}, 
+      {src:'media/elderly-health/7.jpg', alt:''}, 
+      {src:'media/elderly-health/8.jpg', alt:''}, 
+      {src:'media/elderly-health/9.jpg', alt:''}, 
+      {src:'media/elderly-health/10.jpg', alt:''}, 
+      {src:'media/elderly-health/11.jpg', alt:''}, 
+      {src:'media/elderly-health/12.jpg', alt:''}, 
+      {src:'media/elderly-health/13.jpg', alt:''}, 
+      {src:'media/elderly-health/14.jpg', alt:''}, 
+      {src:'media/elderly-health/15.jpg', alt:''}, 
+      {src:'media/elderly-health/16.jpg', alt:''}, 
+      {src:'media/elderly-health/17.jpg', alt:''}, 
+      {src:'media/elderly-health/18.jpg', alt:''}, 
+      {src:'media/elderly-health/19.jpg', alt:''}, 
+      {src:'media/elderly-health/20.jpg', alt:''}, 
+      {src:'media/elderly-health/21.jpg', alt:''}, 
+      {src:'media/elderly-health/22.jpg', alt:''}, 
+      {src:'media/elderly-health/23.jpg', alt:''}, 
+      {src:'media/elderly-health/24.jpg', alt:''}
+
+    ], 
+    video:{ poster:'media/elderly-health/cover.jpg', 
+      sources:[] } },
+  { id:2, 
+    slug:'nataraj-diy-package', 
+    title:'Redesign Of Nataraj Package', 
+    categories:['product-design', 'packaging'], 
+    year:2026, 
+    tags:['packaging','diy','educational', 'sustainability'], 
+    summary:'Repackage of nataraj crayon box for the DIY educational and playful experience of child.', 
+    cover:'media/nataraj/cover.jpg', 
+    images:[ 
+      {src:'media/nataraj/2.jpg', alt:''}, 
+      {src:'media/nataraj/3.jpg', alt:''}, 
+      {src:'media/nataraj/4.jpg', alt:''}, 
+      {src:'media/nataraj/5.jpg', alt:''}, 
+      {src:'media/nataraj/6.jpg', alt:''}, 
+      {src:'media/nataraj/7.jpg', alt:''}, 
+      {src:'media/nataraj/8.jpg', alt:''}, 
+      {src:'media/nataraj/9.jpg', alt:''}, 
+      {src:'media/nataraj/10.jpg', alt:''}, 
+      {src:'media/nataraj/11.jpg', alt:''}, 
+      {src:'media/nataraj/12.jpg', alt:''}, 
+      {src:'media/nataraj/13.jpg', alt:''}, 
+      {src:'media/nataraj/14.jpg', alt:''}, 
+      {src:'media/nataraj/15.jpg', alt:''}, 
+      {src:'media/nataraj/16.jpg', alt:''}, 
+      {src:'media/nataraj/17.jpg', alt:''}, 
+      {src:'media/nataraj/18.jpg', alt:''}
+    ] 
   },
-  {
-    id: 2,
-    slug: "arc-lamp",
-    title: "ARC Lamp",
-    category: "product-design",
-    year: 2025,
-    tags: ["lighting", "aluminum", "CNC"],
-    summary: "A sculptural task lamp balancing form and function.",
-    cover: "media/arc-lamp/cover.jpg",
-    images: [
-      { src: "media/arc-lamp/01.jpg", alt: "ARC Lamp on walnut desk", caption: "Prototype v2 in brushed aluminum." },
-      { src: "media/arc-lamp/02.jpg", alt: "Exploded view", caption: "Exploded view showing internal mechanism." },
-      { src: "media/arc-lamp/03.jpg", alt: "Detail of hinge", caption: "Self-locking hinge for smooth articulation." }
-    ],
-    youtubeId: "dQw4w9WgXcQ"
-  },
-  {
-    id: 3,
-    slug: "finpay-app",
-    title: "FinPay — Mobile Banking",
-    category: "ui-ux",
-    year: 2024,
-    tags: ["fintech", "design-system", "prototype"],
-    summary: "Accessible mobile banking with a scalable design system.",
-    cover: "media/finpay-app/cover.jpg",
-    images: [
-      { src: "media/finpay-app/01.jpg", alt: "Card sorting session", caption: "Information architecture exploration." },
-      { src: "media/finpay-app/02.jpg", alt: "UI mockups", caption: "High-fidelity UI flows and components." }
-    ]
-  },
-  {
-    id: 4,
-    slug: "eco-pack",
-    title: "Eco‑Pack Rebrand",
-    category: "packaging",
-    year: 2023,
-    tags: ["sustainability", "branding", "mockups"],
-    summary: "Recyclable packaging system for a DTC brand.",
-    cover: "media/eco-pack/cover.jpg",
-    images: [
-      { src: "media/eco-pack/01.jpg", alt: "Packaging lineup", caption: "Paper-based, mono-material family." },
-      { src: "media/eco-pack/02.jpg", alt: "Die-line overview", caption: "Optimized dielines to reduce waste." }
-    ]
+  { id:3, 
+    slug:'Passive Amplifier', 
+    title:'Passive Smartphone Amplifier Dock', 
+    categories:['product-design', '3D CAD'], 
+    year:2026, 
+    tags:['3D print','prototyping','3D CAD', 'sustainability'], 
+    summary:'Speaker with high amplification without any battery', 
+    cover:'media/speaker/cover.jpg', 
+    images:[ 
+      {src:'media/speaker/1.jpg', alt:''}, 
+      {src:'media/speaker/2.jpg', alt:''}, 
+      {src:'media/speaker/3.jpg', alt:''}, 
+      {src:'media/speaker/4.jpg', alt:''}, 
+      {src:'media/speaker/5.jpg', alt:''}, 
+      {src:'media/speaker/6.jpg', alt:''}, 
+      {src:'media/speaker/7.jpg', alt:''}, 
+      {src:'media/speaker/8.jpg', alt:''}, 
+      {src:'media/speaker/9.jpg', alt:''}, 
+      {src:'media/speaker/10.jpg', alt:''}, 
+      {src:'media/speaker/11.jpg', alt:''}, 
+      {src:'media/speaker/12.jpg', alt:''}, 
+      {src:'media/speaker/13.jpg', alt:''}
+
+    ] 
   }
 ];

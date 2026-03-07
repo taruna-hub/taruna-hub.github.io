@@ -4,59 +4,57 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tarun Aggarwal — Design Portfolio</title>
-  <meta name="description" content="Portfolio of Tarun Aggarwal showcasing Product, Automotive/3D, UI/UX and Packaging projects." />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Priya Aggarwal — Design Portfolio</title>
+  <meta name="description" content="Portfolio of Priya Aggarwal." />
   <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Sora:wght@300;400;600&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a class="brand" href="index.html">/Tarun<span>Aggarwal</span></a>
-      <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+      <a class="brand" href="index.html"><span class="brand-text"></span></a>
+      <button class="theme-toggle" aria-label="Toggle color theme">🌙</button>
     </nav>
     <section class="hero">
       <div class="hero-inner">
-        <h1 class="hero-title">Hi, I’m <span class="accent">Tarun Aggarwal</span></h1>
-        <p class="hero-subtitle">
-          Designer focused on <strong>Product</strong>, <strong>Automotive/3D</strong>, <strong>UI/UX</strong>, and <strong>Packaging</strong> — crafting meaningful experiences from concept to production.
-        </p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#work" id="workExplore">Explore Work</a>
-          <a class="btn" href="mailto:tarun@example.com">Contact</a>
+        <div class="hero-copy">
+          <h1 class="hero-title">Hi, I’m <span class="accent">Priya Aggarwal</span></h1>
+          <p class="hero-subtitle">Designer focused on <strong>Product</strong>, <strong>Automotive/3D</strong>, <strong>UI/UX</strong>, and <strong>Packaging</strong>.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#work" id="workExplore">Explore Work</a>
+            <a class="btn linkedin" id="ctaLinkedIn" href="https://www.linkedin.com/in/priya-aggarwal-047604279/" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" style="margin-right:8px;"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.82-2.1 3.75-2.1 4.01 0 4.75 2.64 4.75 6.07V24h-4v-7.2c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.87-2.77 3.8V24h-4V8.5z"/></svg>
+              LinkedIn
+            </a>
+          </div>
         </div>
+        <div class="hero-media"><video id="heroVideo" class="hero-video" playsinline muted loop autoplay poster="assets/about-banner.jpg"></video></div>
       </div>
       <div class="hero-bg"></div>
+      <button class="scroll-cue" aria-label="Scroll down"><span class="arrow"></span></button>
     </section>
   </header>
 
+  <section id="about" class="about container">
+    <img class="about-banner-img" src="assets/about-banner.jpg" alt="About & skills banner for Priya Aggarwal"/>
+  </section>
+
   <main id="work" class="container">
     <section class="controls" aria-label="Project filters">
-      <div class="filters" role="tablist">
-        <button role="tab" class="filter active" data-filter="all" aria-selected="true">All</button>
-        <button role="tab" class="filter" data-filter="product-design">Product Design</button>
-        <button role="tab" class="filter" data-filter="automotive-3d">Automotive/3D</button>
-        <button role="tab" class="filter" data-filter="ui-ux">UI/UX</button>
-        <button role="tab" class="filter" data-filter="packaging">Packaging</button>
-        <button role="tab" class="filter" data-filter="Branding">Branding</button>
-      </div>
+      <div class="filters"></div>
       <label class="search">
         <span class="sr-only">Search projects</span>
         <input type="search" id="searchInput" placeholder="Search by title or tag…" autocomplete="off" />
       </label>
     </section>
-
-    <section class="grid" id="projectsGrid" aria-live="polite">
-      <!-- Cards injected by JS -->
-    </section>
+    <section class="grid" id="projectsGrid" aria-live="polite"></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Tarun Aggarwal — Available for select projects.</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><p>© <span id="year"></span> <span class="brand-text"></span></p></div></footer>
 
+  <script src="assets/site-config.js"></script>
   <script src="assets/project-data.js"></script>
   <script src="assets/app.js"></script>
 </body>
